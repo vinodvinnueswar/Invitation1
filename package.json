@@ -12,6 +12,7 @@
   "dependencies": {
     "@material-ui/icons": "^4.11.3",
     "aos": "^2.3.4",
+    "peer": "^1.0.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-player": "^2.16.0"
