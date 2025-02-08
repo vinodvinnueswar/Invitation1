@@ -12,7 +12,7 @@ const Contact_Us = () => {
         <p>See their memories</p>
         </div>
         
-        <div className="Couples-Social-Media" data-aos="zoom-in">
+        <div className="Couples-Social-Media" data-aos="zoom-out">
             <div className="facebook">
                 Facebook
             </div>
