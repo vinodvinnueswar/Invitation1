@@ -143,6 +143,7 @@ body{
 
 /* GALLERY CONTAINER */
 .Gallery-container{
+    height: 100vh;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -158,23 +159,21 @@ body{
     width: 200px;
 }
 .images {
-    margin-top: 12px;
+    margin-top: 40px;
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
-    -webkit-column-width: 23%;
-    -moz-column-width: 23%;
-    column-width: 23%;
-    padding: 0px 12px;
+     -webkit-column-width:10% ;
+     -moz-column-width: 3%;
+    column-width: 3%;
+    padding: 0 22px;
 }
-.images .pics{
-    -webkit-transition: all 250ms ease;
-    transition: all 250ms ease;
-    cursor: pointer;
-    margin-bottom: 12px;
+.pics{
+    height: 180px;
+    margin-bottom: 10px;
 }
 .pics img{
-    height: 200px;
+    height: 180px;
     width: 150px;
 }
 .pics img:hover{
@@ -566,14 +565,12 @@ body{
         column-width: 23%;
         padding: 0px 12px;
     }
-    .images .pics{
-        -webkit-transition: all 250ms ease;
-        transition: all 250ms ease;
-        cursor: pointer;
-        margin-bottom: 12px;
+    .pics{
+        height: 180px;
+        margin-bottom: 10px;
     }
     .pics img{
-        height: 200px;
+        height: 180px;
         width: 150px;
     }
     .pics img:hover{
@@ -972,15 +969,13 @@ body{
         column-width: 53%;
         padding: 0px 12px;
     }
-    .images .pics{
-        -webkit-transition: all 250ms ease;
-        transition: all 250ms ease;
-        cursor: pointer;
-        margin-bottom: 12px;
+    .pics{
+        height: 180px;
+        margin-bottom: 10px;
     }
     .pics img{
-        height: 300px;
-        width: 250px;
+        height: 180px;
+        width: 150px;
     }
     .pics img:hover{
         transform: scale(1.02)
@@ -1236,8 +1231,8 @@ body{
 
 @media (min-width:576px)and (max-width: 768px) {
     .Invite-page {
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
         width: 100%;
     }
 
@@ -1415,16 +1410,13 @@ body{
         column-width: 23%;
         padding: 0px 12px;
     }
-    .images .pics{
-        -webkit-transition: all 250ms ease;
-        transition: all 250ms ease;
-        cursor: pointer;
-        margin-bottom: 12px;
-    }
-    .pics img{
+    .pics{
         height: 200px;
-        width: 150px;
-    }
+      }
+      .pics img{
+          height: 200px;
+          width: 150px;
+      }
     .pics img:hover{
         transform: scale(1.02)
     }
@@ -1655,10 +1647,11 @@ body{
         padding-left: 0px;
         padding-right: 0px;
         width: 100%;
+        overflow: hidden;
     }
 
     .Front-Container img {
-        height: 400px;
+        height: 300px;
         width: 300px;
     }
 
@@ -1688,12 +1681,14 @@ body{
     }
     .Invite-page {
         height: 100%;
-        padding-left: 300px;
-        padding-right: 300px;
+        width: 100%;
+        padding-left: 280px;
+        padding-right: 280px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        overflow: hidden;
     }
     .Invite-details{
         background-color:beige;
@@ -1818,6 +1813,7 @@ body{
     /* GALLERY CONTAINER */
     .Gallery-container{
         margin-top: 20px;
+        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1841,11 +1837,8 @@ body{
         column-width: 23%;
         padding: 0px 12px;
     }
-    .images .pics{
-        -webkit-transition: all 250ms ease;
-        transition: all 250ms ease;
-        cursor: pointer;
-        margin-bottom: 12px;
+.pics{
+      height: 200px;
     }
     .pics img{
         height: 200px;
